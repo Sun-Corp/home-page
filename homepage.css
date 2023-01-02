@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: white
+    background:rgba(248, 248, 248, 1);
 }
 
 .container{
@@ -37,6 +37,29 @@ body{
 
 .cart>li{
     padding: 15px;
+}
+
+.cart li:hover .dropdown{
+    display: block;
+    background-color: white;
+    position:absolute;
+    align-items: center;
+    border-radius: 10px;
+    margin-block: 5px;
+}
+
+.dropdown{
+    display: none;
+    list-style-type: none;
+}
+
+
+.dropdown li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(152, 152, 171, 1);
+    align-items: center;
 }
 
 .sideLeft{
@@ -311,6 +334,8 @@ input[type=text]{
     color: white;
     text-transform: capitalize;
     font-size: larger;
+    
 }
+
 
 
